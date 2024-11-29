@@ -1,74 +1,59 @@
-# Getting Started with Create React App and Fluent UI
+# Web
 
-This is a [Create React App](https://github.com/facebook/create-react-app) based repo that comes with Fluent UI pre-installed!
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
 
-## Setup
+## Development server
 
-Create a `.env` file within the base of the `reactd-fluent` folder with the following configuration:
+To start a local development server, run:
 
-- `VITE_API_BASE_URL` - Base URL for all api requests, (ex: `http://localhost:3100`)
+```bash
+ng serve
+```
 
-> Note: The URL must include the schema, either `http://` or `https://`.
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-- `VITE_APPLICATIONINSIGHTS_CONNECTION_STRING` - Azure Application Insights connection string
+## Code scaffolding
 
-## Available Scripts
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-In the project directory, you can run:
+```bash
+ng generate component component-name
+```
 
-### `npm ci`
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-Installs local pre-requisites.
+```bash
+ng generate --help
+```
 
-### `npm start`
+## Building
 
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To build the project run:
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+```bash
+ng build
+```
 
-### `npm test`
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-Launches the test runner in the interactive watch mode.
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Running unit tests
 
-### `npm run build`
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
-Builds the app for production to the `build` folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+ng test
+```
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
+## Running end-to-end tests
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+For end-to-end (e2e) testing, run:
 
-### `npm run eject`
+```bash
+ng e2e
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Additional Resources
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-## Contributing
-
-This project welcomes contributions and suggestions. Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.microsoft.com.
-
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
