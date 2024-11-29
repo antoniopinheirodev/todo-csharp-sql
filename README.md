@@ -67,6 +67,7 @@ This application utilizes the following Azure resources:
 - [**Azure Monitor**](https://docs.microsoft.com/azure/azure-monitor/) for monitoring and logging
 - [**Azure Key Vault**](https://docs.microsoft.com/azure/key-vault/) for securing secrets
 
+
 Here's a high level architecture diagram that illustrates these components. Notice that these are all contained within a single [resource group](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal), that will be created for you when you create the resources.
 
 !["Application architecture diagram"](assets/resources.png)
